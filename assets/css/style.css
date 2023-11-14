@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: white;
+}
+
+header>figure,
+h1 {
+    display: inline-block;
+}
+
+header>figure {
+    margin-left: 20px;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
