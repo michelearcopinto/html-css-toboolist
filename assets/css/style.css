@@ -46,7 +46,6 @@ h1 {
 }
 
 nav {
-    background-color: lightcoral;
     padding-block: 10px;
     border-radius
 }
@@ -67,12 +66,55 @@ nav>button:first-child {
 
 nav>button:nth-child(2) {
     color: #c8cdd2;
-    background-color: white;
     border-color: #c8cdd2;
 }
 
-
 main {
     padding-block: 30px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2,
+span {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+section>span:nth-child(4) {
+    margin-top: 10px;
+    padding: 1px 5px;
+    border-radius: 50%;
+}
+
+.checked {
+    color: #66c1ab;
+    border: 1px solid #66c1ab;
+}
+
+section>span:nth-child(5) {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+section>span:nth-child(5)::after {
+    content: "Quarterly Newsletter";
+}
+
+section>:last-child {
+    color: white;
+    padding: 7px 12px;
+    border-radius: 14px;
+    font-size: 13px;
+}
+
+.blue-tag {
+    background-color: #45abea;
 }
