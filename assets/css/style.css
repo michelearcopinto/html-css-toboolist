@@ -52,7 +52,7 @@ nav {
 
 button {
     padding: 5px 10px;
-    border: 1px solid black;
+    border: 1px solid;
     border-radius: 5px;
     font-family: 'Gabarito', sans-serif;
     font-size: 15px;
@@ -86,6 +86,7 @@ span {
 h2 {
     font-size: 25px;
     margin-left: 5px;
+    letter-spacing: 1px;
 }
 
 i {
