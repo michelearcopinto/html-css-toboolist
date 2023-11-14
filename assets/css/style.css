@@ -32,17 +32,23 @@ h1 {
     letter-spacing: 1px;
 }
 
-.content {
+.container {
     width: 75%;
     margin-inline: auto;
+    margin-top: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content {
     padding-inline: 70px;
     /* background-color: white; */
 }
 
 nav {
     background-color: lightcoral;
-    margin-top: 60px;
     padding-block: 10px;
+    border-radius
 }
 
 button {
