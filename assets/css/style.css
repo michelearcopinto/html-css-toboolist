@@ -42,12 +42,12 @@ h1 {
 
 .content {
     padding-inline: 70px;
-    /* background-color: white; */
+    background-color: white;
 }
 
 nav {
-    padding-block: 10px;
-    border-radius
+    padding-block: 15px 10px;
+    border-bottom: 2px solid #f6f8f9;
 }
 
 button {
@@ -66,12 +66,12 @@ nav>button:first-child {
 
 nav>button:nth-child(2) {
     color: #c8cdd2;
+    background-color: white;
     border-color: #c8cdd2;
 }
 
 main {
     padding-block: 30px;
-    /* background-color: lightblue; */
 }
 
 section {
@@ -96,7 +96,7 @@ i {
     margin-bottom: 10px;
 }
 
-.line>span:first-child {
+.line>span:nth-child(1) {
     margin-top: 10px;
     padding: 1px 5px;
     border-radius: 50%;
@@ -105,10 +105,6 @@ i {
 .checked {
     color: #66c1ab;
     border: 1px solid #66c1ab;
-}
-
-.checked::after {
-    content: "&#x2716;";
 }
 
 .cross {
@@ -121,7 +117,7 @@ i {
     margin-left: 5px;
 }
 
-.line>:last-child {
+.line>span:nth-child(3) {
     color: white;
     padding: 7px 12px;
     border-radius: 14px;
@@ -132,14 +128,46 @@ i {
     background-color: #45abea;
 }
 
+.blue-tag::after {
+    content: "Editorial";
+}
+
 .purple-tag {
     background-color: #9c72e4;
+}
+
+.purple-tag::after {
+    content: "Q1 Goals";
 }
 
 .green-tag {
     background-color: #64c0a9;
 }
 
+.green-tag::after {
+    content: "Recruiting";
+}
+
 .orange-tag {
     background-color: #f29e33;
+}
+
+.orange-tag::after {
+    content: "Mobile";
+}
+
+.pink-tag {
+    background-color: #d863a1;
+}
+
+.pink-tag::after {
+    content: "Website";
+}
+
+.tree-tag {
+    background-color: #b0c926;
+}
+
+.tree-tag::after {
+    content: "Sales";
 }
