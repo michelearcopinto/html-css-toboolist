@@ -17,7 +17,8 @@ header {
 }
 
 header>figure,
-h1 {
+h1,
+span {
     display: inline-block;
     vertical-align: middle;
 }
@@ -99,11 +100,7 @@ h2 {
     letter-spacing: 1px;
 }
 
-.line {
-    margin-block: 15px;
-}
-
-.line>span::before {
+section>span::before {
     display: inline-block;
     font-size: 15px;
     width: 20px;
@@ -126,12 +123,12 @@ h2 {
     border: 1px solid #ea4238;
 }
 
-.line>span {
+section>span {
     font-size: 20px;
-    margin-left: 5px;
+    margin-block: 10px;
 }
 
-.line>span::after {
+section>span::after {
     color: white;
     padding: 7px 12px;
     border-radius: 14px;
