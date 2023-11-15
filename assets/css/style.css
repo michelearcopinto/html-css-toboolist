@@ -17,8 +17,7 @@ header {
 }
 
 header>figure,
-h1,
-span {
+h1 {
     display: inline-block;
     vertical-align: middle;
 }
@@ -74,8 +73,12 @@ main {
     padding-block: 30px;
 }
 
-section {
-    margin-bottom: 30px;
+h2+ul {
+    margin-bottom: 35px;
+}
+
+li {
+    list-style-type: none;
 }
 
 .icon::before {
@@ -89,18 +92,17 @@ section {
 .sort-down::before {
     font-family: "Font Awesome 5 Free";
     font-size: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
     content: "\f0dd";
 }
 
-h2 {
-    display: inline-block;
+li>h2 {
     font-size: 25px;
-    margin-left: 5px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
-section>span::before {
+.circle::before {
     display: inline-block;
     font-size: 15px;
     width: 20px;
@@ -123,12 +125,12 @@ section>span::before {
     border: 1px solid #ea4238;
 }
 
-section>span {
+.line {
     font-size: 20px;
-    margin-block: 10px;
+    margin-bottom: 20px;
 }
 
-section>span::after {
+.tag::after {
     color: white;
     padding: 7px 12px;
     border-radius: 14px;
